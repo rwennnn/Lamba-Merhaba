@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+.env
+app-status.json
+smoke-test.json
+deployment-sha256.json
+model/model.safetensors
+model/.cache/

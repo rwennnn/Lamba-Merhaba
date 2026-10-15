@@ -1,0 +1,14 @@
+Lamba-Merhaba
+Maintained by rwennnn.
+
+This project includes a LoRA adapter fine-tuned on cturan/Lamba-750M.
+Upstream model: https://huggingface.co/cturan/Lamba-750M
+Upstream model license metadata: Apache License 2.0.
+The upstream model card identifies Qwen/Qwen3.5-0.8B-Base as its base.
+Upstream authors retain their rights to their respective contributions.
+
+Changes: a constant-greeting target was fine-tuned through a separate LoRA
+adapter; a local Tkinter chat interface and configurable Windows launcher
+were added. The upstream base weights are not merged with the adapter.
+Public adapter metadata replaces a machine-specific base path with the
+upstream model identifier; the adapter tensor file is unchanged.
